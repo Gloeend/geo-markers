@@ -10,7 +10,7 @@ Run `yarn install` to install all dependencies.
 
 ### Development
 
-Run `yarn start` to start the development server.
+Run `yarn dev` to start the development server.
 
 ### Building
 
