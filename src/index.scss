@@ -1,0 +1,32 @@
+@import "variables";
+@import "shadcn";
+
+body {
+  font-family: "Inter", sans-serif;
+  width: 100%;
+}
+
+.icon-current-fill-path > path {
+  fill: currentColor;
+}
+
+.icon-current-fill-path > path {
+  stroke: currentColor;
+}
+
+main {
+  width: 100%;
+}
+
+div#root {
+  display: flex;
+  margin: 0 auto;
+  height: 100dvh;
+  max-height: 100dvh;
+}
+
+.wrap {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}

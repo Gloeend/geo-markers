@@ -1,0 +1,20 @@
+{
+    "apps": [
+        {
+            "name": "react-fsd",
+            "script": "serve",
+            "args": "-s build",
+            "instances": 1,
+            "exec_mode": "fork",
+            "watch": false,
+            "autorestart": true,
+            "max_memory_restart": "1G",
+            "env": {
+                "NODE_ENV": "production",
+                "PORT": 3000
+            },
+            "node_args": "--max-old-space-size=8192",
+            "no_daemon": true
+        }
+    ]
+}
