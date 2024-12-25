@@ -15,3 +15,7 @@ Run `yarn start` to start the development server.
 ### Building
 
 Run `yarn build` to build the application for production.
+
+### json-server
+
+Run `npx json-server db.json` to serve API
